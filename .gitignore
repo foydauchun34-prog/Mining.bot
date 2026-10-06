@@ -1,31 +1,19 @@
-# Built things
-_Debug/
-Compiled/
+# Maxfiy va kalit fayllar
+.env
+*.db
+bot.db
 
-# AudioCache can be rebuilt from sources
-AudioCache/
+# Python kesh fayllari
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
-# Lockfile
-_OpenInEditor.lock
+# Virtual muhit (Virtual Environment)
+venv/
+.venv/
+env/
 
-# User settings
-Game.agf.user
-*.crm.user
-
-# Backups
-Game.agf.bak
-backup_acsprset.spr
-
-# Memory dumps
-*.dmp
-
-# Temporary files
-# temporarily created during sprite or room background compression
-~aclzw.tmp
-# temporary, main game data, before getting packed into exe
-game28.dta
-# temporary build of the game before being moved to Compiled/ folder
-*.exe
-
-# Log files
-warnings.log
+# IDE va muhit sozlamalari
+.vscode/
+.idea/
